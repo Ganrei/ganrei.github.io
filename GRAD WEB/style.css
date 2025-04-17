@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(255, 230, 104);
+    overflow-x: hidden;
+}
+.img1{
+    width: 20%;
+}
+#landing-img{
+    width: 95rem;
+    height: 125vh;
+    margin: 0;
+    object-fit: cover;
+}
+#img1{
+    max-width: 30rem;
+    max-height: 50rem;
+    margin: 2rem;
+    margin-right: 0rem;
+}
+#img2{
+    max-width: 30rem;
+    max-height: 50rem;
+    margin: 2rem;
+}
+#img3{
+    max-width: 30rem;
+    max-height: 50rem;
+    margin: 2rem;
+    margin-left: 0rem;
+}
+
+.section1{
+    display: flex;
+    flex-direction: row;
+}
+#img4{
+    margin: 2rem;
+    margin-left: 3rem;
+}
+
+#img5,#img7,#img11{
+    max-width: 30rem;
+    max-height: 50rem;
+    
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2rem;
+    gap: 2rem;
+}
+
+#img8{
+    max-width: 40rem;
+    max-height: 80rem;
+    margin-top: 5rem;
+    margin-left: 2rem;
+}
+
+#img6{
+    max-width: 80rem;
+    max-height: 100rem;
+    margin: 5rem;
+}
+
+h1{
+    font-size: 10rem;
+    margin-left: 17rem;
+    color: rgb(72, 170, 255);
+}
+
+.images img:hover{
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
